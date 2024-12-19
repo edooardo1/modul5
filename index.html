@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Макет</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</h1>
+    </header>
+    <main class="main">
+        <div class="swiper slider">
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide"><button class="button" onclick="location.href='#'"><img src="img/lenovo.png" alt="lenovo"><img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button" onclick="location.href='#'"><img src="img/samsung.png" alt="samsung"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button" onclick="location.href='#'"><img src="img/apple.png" alt="apple"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button" onclick="location.href='#'"><img src="img/vs.png" alt="vs"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button" onclick="location.href='#'"><img src="img/bosch.png" alt="bosch"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button" onclick="location.href='#'"><img src="img/hp.png" alt="hp"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button button__hiden tablet__hiden button__viseble" onclick="location.href='#'"><img src="img/acer.png" alt="acer"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button button__hiden tablet__hiden button__viseble" onclick="location.href='#'"><img src="img/sony.png" alt="sony"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button button__hiden laptop__hiden" onclick="location.href='#'"><img src="img/lenovo.png" alt="lenovo"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button button__hiden laptop__hiden" onclick="location.href='#'"><img src="img/samsung.png" alt="samsung"> <img src="img/href.svg" alt="href"></button></div>
+                <div class="swiper-slide"><button class="button button__hiden laptop__hiden" onclick="location.href='#'"><img src="img/apple.png" alt="apple"> <img src="img/href.svg" alt="href"></button></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <button id="toggleButton" class="more" onclick="toggleVisibility()">Показать все</button>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scriptSwiper.js"></script>
+</body>
+</html>
